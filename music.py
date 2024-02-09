@@ -13,6 +13,7 @@ def speak(audio):
 
 
 def songs():
+    # music_dir is hold a file location where musics is present. In the below you can see the file location " \\Music\\". 
     music_dir = "\\Music\\"
     song = os.listdir(music_dir)
     print(song)
